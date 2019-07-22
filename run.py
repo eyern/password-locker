@@ -19,7 +19,7 @@ def save_user_account(user):
 
 def check_existing_users(characters):
     """
-    Function that checks if a user exists with those characters and retuen a boolean
+    Function that checks if a user exists with those characters and return a boolean
     """
     return User.user_exists(characters)
 
