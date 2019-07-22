@@ -55,7 +55,7 @@ def find_credential(account):
     return Credential.find_by_account(account)
 
 
-def display_credential():
+def display_credentials():
     """
     Function that returns the credentials list
     """
