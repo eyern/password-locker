@@ -170,7 +170,7 @@ def main():
             break
 
         else:
-            print("Sorry, I didn't get that. Please use the short codes\n")
+            print("Sorry, That wasn't got. Please use the short codes\n")
 
 
 if __name__ == '__main__':
