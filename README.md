@@ -36,7 +36,7 @@ _An application that will help us manage our passwords and even generate new pas
 
 ## Contact Information
 
-* _Email:_ eyernfuture@gmaiol.com
+* _Email:_ eyernfuture@gmail.com
 
 ### License
 
