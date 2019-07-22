@@ -40,6 +40,6 @@ _An application that will help us manage our passwords and even generate new pas
 
 ### License
 
-*This software is licensed under the MIT license.*
+*This project is licensed under the MIT license.*
 
 Copyright (c) 2019 **_Ian Kipkoech_**
