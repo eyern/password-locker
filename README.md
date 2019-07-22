@@ -1,4 +1,4 @@
-# _Password-Locker_
+# _password-locker_
 
 #### By _Ian Kipkoech_
 
