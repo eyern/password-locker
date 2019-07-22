@@ -1,75 +1,45 @@
-# Password Locker
+# _Password-Locker_
 
-#### By **Kayitesi Jackie**
+#### By _Ian Kipkoech_
+
 ## Description
 
-This is a terminal based python program that helps users to manage their passwords and even generate new passwords for them.
+_An application that will help us manage our passwords and even generate new passwords for us._
+
+## Behavior Driven Development(BDD)
+
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| User types ./run.py in terminal | User enter their userName and password to create an account | The application saves the details and indicates if you have successfully created an account |
+| The application prompts you to enter select an option | User save,add,remove,search or logout of their account | The application verify by a text message if the options are selected correctly |
+
 
 ## Setup/Installation Requirements
-To start using this project use the following commands:
 
-* `git clone https://github.com/kayitesijackie/Password-Locker.git`
-* `cd Password-Locker`
+* _Open your GITHUB account_
+* _Clone this repository_
+* _Open the repository in your favourite editor_
+* _Install python3.6 and above_
+* _Install pyperclip_
+* _The apllication mainly uses the terminal(Linux)/prompt(windows)_
+* _Open run the file by python3.6 filename_
+* _./run.py to run the module_
 
-To run this program
-* run this command lines in your terminal:
-* `chmod +x run.py`
-* `./run.py`
-## Behavior Driven Development
-* The program should ask for user's username and password when **ca**(create account) is entered:
 
-     **Input Example**: Enter **ca**
+## Bugs
 
-     **Output Example**: What is your username?
+* _Since there is no database to support the app, once you exit or log out of a session you loose all the credentials and    created user. You have to create a new user for every session. You can still use the default login but if you exit the app, you will still loose all the credentials you created._
 
-     **Output Example**: What is your password?
+## Technologies Used
 
-* The program should authenticate the account by asking the user to login again when **cc**(create credential) is entered:
+* _Python_
 
-     **Input Example**: Enter **cc**
+## Contact Information
 
-     **Output Example**: Login to your account. Username?
+* _Email:_ eyernfuture@gmaiol.com
 
-* The program should create credentials when **cc**(create credential) is entered:
+### License
 
-     **Input Example**: Enter **cc**
+*This software is licensed under the MIT license.*
 
-     **Output Example**: Enter the account name
-
-* The program should generate a random 8 characters long password when **gp**(generate password) is entered:
-
-     **Input Example**: Enter **gp**
-
-     **Output Example**: Your password is: 
-
-* The program should let the user create their own password when **cp**(create password) is entered:
-
-     **Input Example**: Enter **cp**
-
-     **Output Example**: Enter your password
-
-* The program should display the credentials when **dc**(display credentials) is entered:
-
-     **Input Example**: Enter **dc**
-
-     **Output Example**: Here is a list of all of your credentials...
-
-* The program should let the user delete credentials when **rc**(remove credentials) is entered:
-
-     **Input Example**: Enter **rc**
-
-     **Output Example**: Enter the account name you want to delete
-
-* The program should end when **ex**(exit program) is entered:
-
-     **Input Example**: Enter **ex**
-
-     **Output Example**: Thank you for using Password locker...
-
-## Support and Contact details
-Incase of any enquires reach me at: kayitesijacqueline@gmail.com
-
-## License
-MIT License
-
-Copyright (c) 2019 **Kayitesi Jackie**
+Copyright (c) 2019 **_Ian Kipkoech_**
